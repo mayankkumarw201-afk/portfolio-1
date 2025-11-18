@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/portfolio-1/index.css">
+  <link rel="stylesheet" href="/HTML/CSS/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <title>Portfolio</title>
 </head>
@@ -16,7 +16,7 @@
       <nav>
         <div class="top-nav">
           <div class="align">
-            <button class="call-btn"><a href="#"></a><i class="bi bi-brilliance"></i></button>
+            <button class="call-btn"><i class="bi bi-brilliance"></i></button>
             <ul>
               <li><a href="#home-section" class="btn">Home</a></li>
               <li><a href="#about-section" class="btn">About</a></li>
@@ -46,14 +46,14 @@
               <i id="status" class="bi bi-briefcase-fill"> Available Now</i>
             </div>
             <button class="lets-chat"><i id="lets-chat" class="bi bi-arrow-bar-right"></i>Lets Chat</button>
-            <a href="./mycv.pdf" download><button class="lets-chat-a"><i id="download" class="bi bi-cloud-download"></i>Get CV</button></a>
+            <a href="/photos/CV-1.pdf" download="CV-1.pdf"><button class="lets-chat-a"><i id="download" class="bi bi-cloud-download"></i>Get CV</button></a>
             <h2 class="line-break"></h2>
           </div>
         </div>
 
         <div class="rigth">
           <div class="image-container">
-            <img src="/portfolio-1/1.png">
+            <img src="/portfolio-1/1.png" alt="Portfolio Image" class="portfolio-image">
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@
 
       <div class="second-page-rigth">
         <div class="image-container-two">
-          <img src="/portfolio-1/2.jpeg" alt="Portfolio Image" class="portfolio-image-two">
+          <img src="/photos/2.jpeg" alt="Portfolio Image" class="portfolio-image-two">
         </div>
       </div>
     </div>
@@ -123,7 +123,7 @@
 
           <div class="project-card" style="grid-area: box-1">
             <div class="image-count">
-              <img src="/portfolio-1/3.png" alt="">
+              <img src="/photos/3.png" alt="">
               <h1 class="project-detalis">Youtube Clone</h1>
               <p class="project-description">A static HTML/CSS replica of the YouTube channel layout. Demonstrates complex, responsive systems for video content and a scrollable sidebar.</p>
               <div class="technology-used">
@@ -140,7 +140,7 @@
 
           <div class="project-card" style="grid-area: box-2">
             <div class="image-count">
-              <img src="/portfolio-1/4.png" alt="">
+              <img src="/photos/4.png" alt="">
               <h1 class="project-detalis">Netflex Login Page</h1>
               <p class="project-description">A clone of the Netflix login page focused on HTML forms and CSS styling. Features a full-page background image and custom-styled input fields.</p>
               <div class="technology-used">
@@ -157,7 +157,7 @@
 
           <div class="project-card" style="grid-area: box-3">
             <div class="image-count">
-              <img src="/portfolio-1/5.png" alt="">
+              <img src="/photos/5.png" alt="">
               <h1 class="project-detalis">E-commerce web</h1>
               <p class="project-description">A static homepage for a modern e-commerce site built with HTML and CSS. Highlights a responsive hero section and a clean layout.</p>
               <div class="technology-used">
@@ -185,7 +185,7 @@
         <div class="services-grid-container">
           <div class="services-card" style="grid-area:box-4">
             <div class="service-img-container">
-              <img src="/portfolio-1/6.png"
+              <img src="/photos/6.png"
                 alt="Frontend-developer">
               <h4 class="service-details">Frontend Developer</h4>
               <p class="service-description">I build fast, responsive, and visually stunning websites that look great on
@@ -196,7 +196,7 @@
           </div>
           <div class="services-card" style="grid-area:box-5">
             <div class="service-img-container">
-              <img src="/portfolio-1/7.png" alt="Backend-developer">
+              <img src="/photos/7.png" alt="Backend-developer">
               <h4 class="service-details">Backend Developer</h4>
               <p class="service-description">I architect the strong, secure "engine" that powers your application. I
                 build robust APIs and databases to ensure your platform is scalable and reliable.</p>
@@ -206,7 +206,7 @@
           <div class="services-card" style="grid-area:box-6">
             <div class="service-img-container">
               <img
-                src="/portfolio-1/8.png"
+                src="/photos/8.png"
                 alt="App-developer">
               <h4 class="service-details">App Developer</h4>
               <p class="service-description">I turn your concept into a polished, high-performance mobile app for iOS
@@ -216,7 +216,7 @@
           </div>
           <div class="services-card" style="grid-area:box-7">
             <div class="service-img-container">
-              <img src="/portfolio-1/9.png" alt="Management">
+              <img src="/photos/9.png" alt="Management">
               <h4 class="service-details">Web and app Management</h4>
               <p class="service-description">I keep your website and app secure, fast, and always up-to-date. I handle
                 all the technical maintenance and optimization so you don't have to.</p>
@@ -255,12 +255,12 @@
           </div>
           <div class="template-1" style="grid-area: temp-2">
             <div class="inner-div">
-              <form>
+              <form target="_self">
                     <input type="text" id="name-holder" name="fname" placeholder="Your Name"><br><br>
                     <input type="email" id="email-holder" name="email" placeholder="Your Email"><br><br>
                     <textarea id="message-holder" name="lname" placeholder="Your Message"></textarea><br><br>
                     
-                    <button type="submit" class="submit-button">Send Message</button>
+                    <button class="submit-button" type="button">Send Message</button>
               </form>
 
             </div>
@@ -272,6 +272,7 @@
       </div>
     </div>
   </main>
+  <script src="/HTML/OTHER peojects/index.js"></script>
 </body>
 
 </html>
