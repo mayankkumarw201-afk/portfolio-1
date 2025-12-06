@@ -536,6 +536,10 @@ padding: 0 10px;
     border-radius: 6px;
 }
 .site{
+    .site {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
     height: fit-content;
     width: fit-content;
     padding:10px;
